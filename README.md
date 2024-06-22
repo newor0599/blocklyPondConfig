@@ -1,7 +1,7 @@
 # A blockly game website redesign
 
 ## Why?
-
+I like to play some chill coding game on this website, but the UI is really not my cup of tea
 
 ## How to use this configuration
 1. Go to [Blockly game: pond](https://blockly.games/pond-duck?lang=en) in your web browser
