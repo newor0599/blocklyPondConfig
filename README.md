@@ -1,7 +1,7 @@
 # A blockly game website redesign
 
 ## Why?
-I like to play some chill coding game on this website, but the UI is really not my cup of tea
+I like to play some chill coding game on [Blockly pond](https://blockly.games/pond-duck?lang=en), but the UI is really not my cup of tea
 
 ## How to use this configuration
 1. Go to [Blockly game: pond](https://blockly.games/pond-duck?lang=en) in your web browser
@@ -12,9 +12,8 @@ I like to play some chill coding game on this website, but the UI is really not 
 *\* right click on the website > select [inspect] > select console > paste code in input field*
 
 ### Things to do in the website
-[x] Style the website
-Add more website functionality using javascript injection (...)
-    [ ] Toggle scan visibility
-    [ ] Change duck sprite
-    [x] Auto-switch to javascript coding
-    [x] Debug tool in browser (not in inspector)
+- [x] Style the website
+- [ ] Toggle scan visibility
+- [ ] Change duck sprite
+- [x] Auto-switch to javascript coding
+- [x] Debug tool in browser (not in inspector)
