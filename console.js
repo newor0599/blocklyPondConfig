@@ -9,3 +9,4 @@ function setupConsoleLogCapture(console_=document.querySelector(".console>textar
     };
 }
 setupConsoleLogCapture()
+console.log("Console setup succesfull")

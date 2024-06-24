@@ -104,12 +104,6 @@ jsModeButton = document.querySelectorAll("div.tab")[1]
 event_ = new Event('click');
 jsModeButton.dispatchEvent(event_);
 
-
-// Apply theme to ace code editor
-document.querySelector("div#editor").classList.remove("ace-chrome")
-document.querySelector("div#editor").classList.add(theme.toString())
-
-
 // Control panel rework
 document.querySelector("button#runButton").innerHTML = '<img src="common/1x1.gif" class="run icon21">'
 document.querySelector("#resetButton").innerHTML = '<img src="common/1x1.gif" class="stop icon21">'
@@ -124,6 +118,10 @@ controlPanel.appendChild(runBtn)
 controlPanel.appendChild(stopBtn)
 editorBar = document.querySelector("div#editorBar")
 editorBar.parentNode.insertBefore(controlPanel, editorBar)
+
+// Apply theme to ace code editor
+document.querySelector("div#editor").classList.remove("ace-chrome")
+document.querySelector("div#editor").classList.add(theme.toString())
 
 /*Create Console*/
 consoleFrame = document.createElement("div")
