@@ -19,9 +19,9 @@ style,title,#languageMenu,head,table[width="100%"],#avatarStatTable,#editorBar{
  font-family: "JetBrains Mono", monospace;
  font-weight:700;
  font-optical-sizing: auto;
- font-size:20px;
  font-style:normal;
 }
+*
 
 html{
  width:100vw;
@@ -145,12 +145,13 @@ body{
 }
 
 /*Code Editor*/
+
 #editor{
  border:none;
  border-radius:10px;
  overflow:hidden;
- width:0px;
 }
+
 
 /*Console*/
 .console{
@@ -162,11 +163,13 @@ body{
  overflow:hidden;
 }
 
+
 .console>div{
  background: #2e2e2e;
  padding:10px;
  color: #ddd;
 }
+
 
 .console>textarea{
  width:400px;
